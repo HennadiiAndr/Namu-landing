@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import './styles/app-styles.scss';
+import Hero from './components/hero';
+import Modal from './components/modal-menu';
+import Events from './components/events';
+import Lecture from './components/lecture';
+import Gallery from './components/gallery';
+import Subscription from './components/subscription';
+import Footer from './components/footer';
+import { useState } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+function App (){
+   const [modalActive, setModalActive] = useState(false);
+   return (
+      <div className="main">
+         <Modal modalActive={modalActive} setModalActive={setModalActive} />
+         <div className="mainFlow">
+            <Hero modalActive={modalActive} setModalActive={setModalActive} />
+            <Events />
+            <Lecture />
+            <Gallery />
+            <Subscription />
+            <Footer />
+         </div>
+      </div>
+   );
+};
 
 export default App;
