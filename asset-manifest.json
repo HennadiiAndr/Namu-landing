@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Namu-landing/static/css/main.37cec769.css",
+    "main.js": "/Namu-landing/static/js/main.7226f744.js",
+    "static/media/Picture_three.png": "/Namu-landing/static/media/Picture_three.6d39dd8b3d3447035874.png",
+    "static/media/Picture_five.png": "/Namu-landing/static/media/Picture_five.9141434f3e925a20a7f4.png",
+    "static/media/Picture_one.png": "/Namu-landing/static/media/Picture_one.4811a96590ba5894c3f8.png",
+    "static/media/Picture_two.png": "/Namu-landing/static/media/Picture_two.4dfb6943f32851f25d0b.png",
+    "static/media/NAMU-one.png": "/Namu-landing/static/media/NAMU-one.6c286e058968565a1a60.png",
+    "static/media/Picture_nine.png": "/Namu-landing/static/media/Picture_nine.bf9bac314fd46085abe2.png",
+    "static/media/Picture_six.png": "/Namu-landing/static/media/Picture_six.3a8847b886cb0697f1ec.png",
+    "static/media/Picture_four.png": "/Namu-landing/static/media/Picture_four.add6268eee217a243ad8.png",
+    "static/media/Picture_eight.png": "/Namu-landing/static/media/Picture_eight.d9562adb53a6fc8b06c1.png",
+    "static/media/Picture_seven.png": "/Namu-landing/static/media/Picture_seven.f90ec6f769d10c21f146.png",
+    "index.html": "/Namu-landing/index.html",
+    "main.37cec769.css.map": "/Namu-landing/static/css/main.37cec769.css.map",
+    "main.7226f744.js.map": "/Namu-landing/static/js/main.7226f744.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37cec769.css",
+    "static/js/main.7226f744.js"
+  ]
+}
